@@ -16,7 +16,7 @@ const App = () => {
         type="number" 
         value={num} 
         onChange={(e) => setNum(Number(e.target.value))} />
-        <p>{sum}</p>
+        <p>Sum: {sum}</p>
     </div>
   )
 }
