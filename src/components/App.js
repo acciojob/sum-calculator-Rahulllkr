@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [num,setNum] = useState(0)
+  const [] = useState(0)
   const [sum,setSum] = useState(0)
  useEffect(() => {
   setSum(sum + num)
